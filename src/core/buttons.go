@@ -32,7 +32,7 @@ var DevsBtn = telegram.Button.Data("Devs", "help_devs")
 
 var PlaylistBtn = telegram.Button.Data("Playlist", "help_playlist")
 
-var SourceCodeBtn = telegram.Button.URL("Source Code", "https://github.com/AshokShau/TgMusicBot")
+var SourceCodeBtn = telegram.Button.URL("Source Code", "https://github.com/TeamAloneOp/AloneX")
 
 func SupportKeyboard() *telegram.ReplyInlineMarkup {
 	channelBtn := telegram.Button.URL("Updates", config.Conf.SupportChannel)
